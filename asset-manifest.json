@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rental-mgmt-system/static/css/main.0a9576c1.chunk.css",
+    "main.js": "/rental-mgmt-system/static/js/main.a8442119.chunk.js",
+    "main.js.map": "/rental-mgmt-system/static/js/main.a8442119.chunk.js.map",
+    "runtime-main.js": "/rental-mgmt-system/static/js/runtime-main.ae5ff97a.js",
+    "runtime-main.js.map": "/rental-mgmt-system/static/js/runtime-main.ae5ff97a.js.map",
+    "static/js/2.225afa77.chunk.js": "/rental-mgmt-system/static/js/2.225afa77.chunk.js",
+    "static/js/2.225afa77.chunk.js.map": "/rental-mgmt-system/static/js/2.225afa77.chunk.js.map",
+    "index.html": "/rental-mgmt-system/index.html",
+    "static/css/main.0a9576c1.chunk.css.map": "/rental-mgmt-system/static/css/main.0a9576c1.chunk.css.map",
+    "static/js/2.225afa77.chunk.js.LICENSE.txt": "/rental-mgmt-system/static/js/2.225afa77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae5ff97a.js",
+    "static/js/2.225afa77.chunk.js",
+    "static/css/main.0a9576c1.chunk.css",
+    "static/js/main.a8442119.chunk.js"
+  ]
+}
