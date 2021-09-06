@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rental-mgmt-system/static/css/main.0a9576c1.chunk.css",
-    "main.js": "/rental-mgmt-system/static/js/main.4f9df959.chunk.js",
-    "main.js.map": "/rental-mgmt-system/static/js/main.4f9df959.chunk.js.map",
+    "main.js": "/rental-mgmt-system/static/js/main.ea7eb466.chunk.js",
+    "main.js.map": "/rental-mgmt-system/static/js/main.ea7eb466.chunk.js.map",
     "runtime-main.js": "/rental-mgmt-system/static/js/runtime-main.ae5ff97a.js",
     "runtime-main.js.map": "/rental-mgmt-system/static/js/runtime-main.ae5ff97a.js.map",
     "static/js/2.c445dd27.chunk.js": "/rental-mgmt-system/static/js/2.c445dd27.chunk.js",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.ae5ff97a.js",
     "static/js/2.c445dd27.chunk.js",
     "static/css/main.0a9576c1.chunk.css",
-    "static/js/main.4f9df959.chunk.js"
+    "static/js/main.ea7eb466.chunk.js"
   ]
 }
