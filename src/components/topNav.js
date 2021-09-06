@@ -8,7 +8,7 @@ import {
   makeStyles,
 } from "@material-ui/core";
 import NestedMenuItem from "material-ui-nested-menu-item";
-import data from "../data/catalog.json";
+import data from "../utils/data/catalog.json";
 import { useState } from "react";
 import { Link, useHistory, withRouter } from "react-router-dom";
 
@@ -38,7 +38,7 @@ function TopNav() {
 
   const handleSubClick = (branch, locName) => {
     setMenu(false);
-    history.push({
+    history.replace({
       pathname: "/categories",
       state: {
         categories: branch.categories,
