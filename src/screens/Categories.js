@@ -3,15 +3,19 @@ import { useEffect } from "react";
 import { useLocation, withRouter } from "react-router-dom";
 import Cards from "../components/cards";
 
+const containerStyle = {
+  display: "flex",
+  alignItems: "flex-start",
+  justifyContent: "space-evenly",
+  flexWrap: "wrap",
+  overflowY: "scroll",
+  height: "80vh",
+  paddingBottom: "70px",
+};
+
 function Categories() {
   const location = useLocation();
   const { branchName, categories, locName } = location?.state;
-  const containerStyle = {
-    display: "flex",
-    alignItems: "flex-start",
-    justifyContent: "space-evenly",
-    flexWrap: "wrap",
-  };
 
   useEffect(() => {
     document.title = `${locName} > ${branchName}`;
