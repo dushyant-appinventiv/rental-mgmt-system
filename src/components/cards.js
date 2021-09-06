@@ -7,6 +7,7 @@ import {
 } from "@material-ui/core";
 import { ChevronRightSharp } from "@material-ui/icons";
 import { useHistory } from "react-router";
+import { categoryImages, subCategoryImages } from "../utils/importImages";
 import { memo } from "react";
 
 function Cards(props) {
@@ -25,25 +26,31 @@ function Cards(props) {
     }
   };
 
-  let imgPath;
+  const cardStyle = {
+    maxWidth: "280px",
+    margin: "8px 0px",
+    maxHeight: "300px",
+  };
+
+  let img;
   if (props?.type === "category") {
-    imgPath = `images/category/${props?.image}`;
+    img = categoryImages.find((image) => image.name === props?.image);
   } else {
-    imgPath = `images/category/subcategory/${props?.image}`;
+    img = subCategoryImages.find((image) => image.name === props?.image);
   }
 
   return (
-    <Card style={{ maxWidth: "280px", margin: "8px 0px" }} raised>
+    <Card style={{ ...cardStyle }} raised>
       <CardMedia
         component={"img"}
         alt={"Machines"}
         height={"250px"}
-        src={imgPath}
+        src={img.imgSrc}
       />
       <CardActionArea>
         <CardActions>
           <Button
-            endIcon={<ChevronRightSharp />}
+            endIcon={props?.type === "category" ? <ChevronRightSharp /> : null}
             fullWidth
             onClick={() => handleClick()}
             variant={"contained"}
