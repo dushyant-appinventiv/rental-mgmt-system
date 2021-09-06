@@ -7,7 +7,6 @@ function Home() {
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "column",
-    height: "60vh",
   };
 
   useEffect(() => {
